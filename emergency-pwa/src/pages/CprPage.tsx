@@ -10,7 +10,7 @@ const STEPS = [
   { num: '5', title: 'รอรถพยาบาล', detail: 'ห้ามให้น้ำหรืออาหาร ห้ามเคลื่อนย้ายหากสงสัยกระดูกสันหลังบาดเจ็บ ทำ CPR ต่อจนทีมมาถึง', alert: false },
 ]
 
-export function CprPage() {
+export default function CprPage() {
   return (
     <div>
       <PageHeader title="CPR ฉุกเฉิน" subtitle="ใช้เมื่อผู้ป่วยหมดสติ ไม่หายใจ หรือหายใจผิดปกติ" />
